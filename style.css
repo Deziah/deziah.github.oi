@@ -1,0 +1,25 @@
+body{
+	background-image: url("sc.jpg");
+
+}
+
+nav {
+
+	position: fixed;
+}
+
+nav ul li{
+	display: inline;
+
+}
+
+#About h1 {
+	text-align: center;
+
+}
+
+
+p, h1{
+
+	color: white;
+}
