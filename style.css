@@ -1,42 +1,41 @@
  body{
 	background-image: url("sc.jpg");
-
 }
 
 p, h1{
 
 	color: white;
-
 }
 
-.topnav {
-
-	background-color: #333;
-    overflow: hidden; 
-}
-
-.topnav a {
-  float: right;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
+a:link {
   color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: deeppink;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-.topnav-right {
-	float: right;
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 .footer {
   position: relative;
+  left: 0;
+  bottom: 0;
   width: 100%;
-  background-color: black;
+  background-color: transparent;
   text-align: center;
   color: white;
 }
@@ -53,3 +52,18 @@ p, h1{
 #Experience {
   text-align: center;
 }
+
+#About {
+  text-align: center;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+.header:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=100);
+}
+
+
