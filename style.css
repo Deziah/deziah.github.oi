@@ -1,10 +1,25 @@
  body{
 	background-image: url("sc.jpg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-p, h1{
+h1, p {
 
-	color: white;
+  color: white;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.header:hover {
+  
+  opacity: 0.8;
+  filter: alpha(opacity=200);
 }
 
 a:link {
@@ -32,8 +47,6 @@ a:active {
 
 .footer {
   position: relative;
-  left: 0;
-  bottom: 0;
   width: 100%;
   background-color: transparent;
   text-align: center;
@@ -56,14 +69,7 @@ a:active {
 #About {
   text-align: center;
 }
-.header {
-  padding: 30px;
-  text-align: center;
-  font-size: 30px;
-}
-.header:hover {
-  opacity: 0.5;
-  filter: alpha(opacity=100);
-}
+
+
 
 
