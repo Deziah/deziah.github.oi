@@ -1,5 +1,6 @@
 var thinkIcon = document.getElementById("codeNextPic");
 var clickedOn = false;
+
 thinkIcon.addEventListener("click", myEventHandler);
 function myEventHandler(){
 
@@ -12,3 +13,13 @@ function myEventHandler(){
 		clickedOn = false;
 	}
 }
+
+var toogle = document.getElementById("#Projects")
+
+$(toogle).ready(function(){
+  $("btn1").click(function(){
+    $("Projects").toggle();
+
+  });
+
+});
