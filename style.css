@@ -1,8 +1,5 @@
  body{
-	background-image: url("https://img.freepik.com/free-photo/white-marble-texture-with-natural-pattern-background-design-art-work_24076-186.jpg?size=626&ext=jpg");
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
+	background-color: white;
 
 }
 
@@ -12,22 +9,19 @@ h1, p {
 }
 
 .header {
-  padding: 30px;
-  text-align: right;
-  font-size: 25px;
-  position: top
-}
 
-.header {
-
-  background-color: transparent;
-
-}
-
-.header:hover {
-  
-  opacity: 0.8;
-  filter: alpha(opacity=200);
+    align-items: center;
+    background-color: white;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: row;
+    height: 64px;
+    justify-content: space-between;
+    padding: 0 2em;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 a:link {
@@ -35,6 +29,7 @@ a:link {
   /*background-color: transparent;*/
   text-decoration: none;
 }
+
 a:visited {
   color: black;
   background-color: transparent;
@@ -53,11 +48,15 @@ a:active {
   text-decoration: underline;
 }
 
-div.header#headingImage,
-  img {
+.header #topImage {
+  
+  float: left;
 
-  position: center;
+}
 
+.headerSpacer {
+
+  height: 64px;
 }
 
 .footer {
