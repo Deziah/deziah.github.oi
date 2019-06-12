@@ -48,8 +48,8 @@ a:active {
   text-decoration: underline;
 }
 
-.header #topImage {
-  
+.header #headingImage{
+
   float: left;
 
 }
@@ -89,8 +89,3 @@ a:active {
   background-color: transparent;
   border-color: transparent;
 }
-
-/*#project2 {
-  visibility: hidden;
-}
-
