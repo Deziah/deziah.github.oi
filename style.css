@@ -84,6 +84,13 @@ a:active {
   text-align: center;
 }
 
+#btn1 {
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+}
 
-
+/*#project2 {
+  visibility: hidden;
+}
 
