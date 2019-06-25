@@ -1,6 +1,5 @@
  body{
 	background-color: white;
-
 }
 
 h1, p {
@@ -8,20 +7,90 @@ h1, p {
   color: black;
 }
 
+#About p{
+
+  text-align: center;
+  line-height: 1.8;
+  font-size: 20px;
+}
+
+p#blocktext1 {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 90px;
+}
+
+p.blocktext2 {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
 .header {
 
-    align-items: center;
-    background-color: white;
-    box-sizing: border-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-direction: row;
-    height: 64px;
-    justify-content: space-between;
-    padding: 0 2em;
-    position: fixed;
-    width: 100%;
-    z-index: 2;
+  align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  height: 64px;
+  justify-content: space-between;
+  padding: 2em;
+  position: sticky;
+  width: 100%;
+  z-index: 2;
+}
+
+.header #headingImage{
+
+  float: right;
+}
+
+#codeNextPic {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div p {
+
+
+}
+
+.headerSpacer {
+
+  height: 64px;
+}
+
+#Projects {
+  text-align: center;
+  position: relative;
+  flex-direction: column;
+}
+
+#Passion {
+  text-align: center;
+}
+
+#Experience {
+  text-align: center;
+}
+
+#About {
+  text-align: center;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+  text-align: center;
+  color: black;
 }
 
 a:link {
@@ -39,54 +108,11 @@ a:visited {
 a:hover {
   color: (233, 233, 233);
   /*background-color: transparent;*/
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
   color: black;
   /*background-color: transparent;*/
-  text-decoration: underline;
-}
-
-.header #headingImage{
-
-  float: right;
-
-}
-
-
-.headerSpacer {
-
-  height: 64px;
-}
-
-.footer {
-  position: relative;
-  width: 100%;
-  background-color: transparent;
-  text-align: center;
-  color: black;
-}
-
-#Projects {
-  text-align: center;
-  position: relative;
-}
-
-#Passion {
-  text-align: center;
-}
-
-#Experience {
-  text-align: center;
-}
-
-#About {
-  text-align: center;
-}
-
-#btn1 {
-  color: white;
-  background-color: transparent;
-  border-color: transparent;
+  text-decoration: none;
 }
